@@ -1,0 +1,2 @@
+Statement pst = con.createStatement();		
+int x=pst.executeUpdate("insert into housedetails values('"+a+"','"+id+"','"+housename+"','"+rooms+"',null)");
